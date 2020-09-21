@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <title>
+        Image Editor
+    </title>
+    <link rel="stylesheet" href="index.css" media="screen" />
+    <script type="text/javascript" src="index.js"></script>
+    <meta name="viewport" content="width=1100">
+</head>
+<body>
+<div class="container">
+    <img alt="Image 1" class="image" onclick="document.getElementById('edit-image').src='Images/image1.jpg'" src="Images/image1.jpg"/>
+    <img alt="Image 3" class="image" onclick="document.getElementById('edit-image').src='Images/image3.jpg'" src="Images/image3.jpg"/>
+    <img alt="Image 2" class="image" onclick="document.getElementById('edit-image').src='Images/image2.jpg'" src="Images/image2.jpg"/>
+</div>
+<div class="working-area">
+    <img id="edit-image"  alt="Image" src=""/>
+    <canvas id="canvas"></canvas>
+</div>
+<div class="button-div">
+    <button onclick="blackWhite(document.getElementById('edit-image').src)">Black and White</button>
+    <button> Invert </button>
+</div>
+</body>
+</html>

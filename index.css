@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.image {
+    width: 300px; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
+    overflow: hidden;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#working-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#edit-image {
+    width: 500px; /* width of container */
+    height: 500px; /* height of container */
+    object-fit: cover;
+    overflow: hidden;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#canvas {
+    width: 500px; /* width of container */
+    height: 500px; /* height of container */
+    object-fit: contain;
+    overflow: hidden;
+    margin: 20px;
+    cursor: pointer;
+
+}
