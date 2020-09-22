@@ -16,9 +16,11 @@
 
 .working-area {
     padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
-.button-div{
+.button-div {
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -31,10 +33,14 @@
     overflow: hidden;
     margin: 20px;
     cursor: pointer;
-    display:none;
+    display: none;
+
+
 }
 
 #canvas {
+    object-fit: cover;
+    overflow: hidden;
     width: 500px; /* width of container */
     height: 500px; /* height of container */
     margin: 20px;

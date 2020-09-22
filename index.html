@@ -4,23 +4,23 @@
     <title>
         Image Editor
     </title>
-    <link rel="stylesheet" href="index.css" media="screen" />
+    <link rel="stylesheet" href="index.css" media="screen"/>
     <script type="text/javascript" src="index.js"></script>
     <meta name="viewport" content="width=1100">
 </head>
 <body>
 <div class="container">
-    <img alt="Image 1" class="image" onclick="show(src='Images/image1.jpg')" src="Images/image1.jpg" />
-    <img alt="Image 3" class="image" onclick="show(src='Images/image3.jpg')" src="Images/image3.jpg" />
-    <img alt="Image 2" class="image" onclick="show(src='Images/image2.jpg')" src="Images/image2.jpg" />
+    <img alt="Image 1" class="image" onclick="show(src='Images/image1.jpg')" src="Images/image1.jpg"/>
+    <img alt="Image 3" class="image" onclick="show(src='Images/image3.jpg')" src="Images/image3.jpg"/>
+    <img alt="Image 2" class="image" onclick="show(src='Images/image2.jpg')" src="Images/image2.jpg"/>
 </div>
 <div class="working-area">
     <img id="edit-image"/>
-    <canvas id="canvas" alt="Canvas" ></canvas>
+    <canvas id="canvas" alt="Canvas"></canvas>
 </div>
 <div class="button-div">
-    <button onclick="blackWhite(document.getElementById('edit-image'), 'bw')">Black and White</button>
-    <button onclick="blackWhite(document.getElementById('edit-image'), 'inv')"> Invert </button>
+    <button onclick="edit(document.getElementById('edit-image'), 'bw')">Black and White</button>
+    <button onclick="edit(document.getElementById('edit-image'), 'inv')">Invert</button>
 </div>
 </body>
 </html>
